@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;700');
+
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #E2D8A5 !important;
+    color: #363636;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 120px;
+    background-color: #611428;
+}
+
+#cabecalho a:hover {
+    background-color: transparent;
+}
+
+.logo {
+  height: 120px;
+  margin-top: -15px;
+}
+
+#conteudo {
+  min-height: calc(100vh - 240px);
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    padding-top: 58px;
+    font-size: 36px;
+    font-weight: 400;
+    color:  #FBC02D;
+}
+
+h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 24px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    color: #6F9F9C;
+}
+
+h3 {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 300;
+    line-height: 150%; /* com porcentagem também funciona */
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+a {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.25em;
+    background-color: #611428;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #611428;
+}
+
+#rodape {
+    width: 100%;
+    padding-top: 45px;
+    height: 120px;
+    background-color: #611428;
+    color: #ffffff;
+    font-size: 1.25em;
+}
+
+.menu {
+    padding-top: 10px;
+    float: right;
+}
+
+.menu li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.menu li:last-child {
+    padding-right: 0px;
+}
+
+.menu li a {
+    color: #611428;
+}
+
+.menu li a:hover {
+    background-color: transparent;
+    color: #6F9F9C !important;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    background-color: #484a37;
+    color: #ffffff;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+}
